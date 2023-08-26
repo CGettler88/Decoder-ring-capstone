@@ -47,7 +47,7 @@ let polybus = {
   function decodeInput(input) {
     const beginingArray = getArrayFromString(input);
     const decodedArray = [];
-    //use a loop for ease of making two values into one return (i.e. 2 numbers returning 1 letter)
+
     for (let i = 0; i < beginingArray.length; i++) {
       const index = beginingArray[i];
       if (index === " ") {
