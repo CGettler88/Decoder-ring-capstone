@@ -8,7 +8,7 @@ const caesarModule = (function () {
  
    function caesar(input, shift, encode = true) {
   
-     //error handling
+     //error handling and constraints and rules.
      if (!shift || shift === 0 || shift>=25 || shift<= -25)
        {
          return false;
